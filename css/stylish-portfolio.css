@@ -61,7 +61,7 @@ body {
 /* Site Title Button Styles */
 
 .title-dark {
-    margin:2px;
+    /*margin:2px;*/
     border-radius: 0;
     color: #fff;
     background-color: rgba(0,0,0,0.4);
