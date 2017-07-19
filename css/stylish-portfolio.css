@@ -58,6 +58,15 @@ body {
     background-color: rgba(255,255,255,0.8);
 }
 
+/* Site Title Button Styles */
+
+.title-dark {
+    margin:2px;
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
 /* Custom Horizontal Rule */
 
 hr.small {
