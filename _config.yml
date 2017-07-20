@@ -9,20 +9,20 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner:
+owner: "Grupo de Neuroimagem"
 email:
-facebook_username:
+facebook_username: "Neuroimagem-da-Cognição-Humana-134547950058577"
 twitter_username:
-github_username:
-address:
-  - line:
+github_username: "neuroimagem-pucrs"
+address: "Av. Ipiranga, 6690 - Jardim Botânico"
+  - line: "Porto Alegre - RS, 91410-000"
   - line:
   # Feel free to add more lines here 
 telephone:
 copyright:
 
 # API settings
-google_api_key:
+google_api_key: " AIzaSyDRAblBOS0djWXbUvVPEo6UXVgu-BQ5TCQ"
 
 # Build settings
 markdown: kramdown
