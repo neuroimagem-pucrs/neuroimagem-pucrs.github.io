@@ -13,6 +13,9 @@ html {
 body {
   margin: 0;
 }
+
+@import 'equipe.css';
+
 article,
 aside,
 details,
