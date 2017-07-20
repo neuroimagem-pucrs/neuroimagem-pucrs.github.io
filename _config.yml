@@ -18,11 +18,11 @@ address: "Av. Ipiranga, 6690 - Jardim Botânico"
   - line: "Porto Alegre - RS, 91410-000"
   - line:
   # Feel free to add more lines here 
-telephone:
+telephone: "(51) 3320-5959"
 copyright:
 
 # API settings
-google_api_key: " AIzaSyDRAblBOS0djWXbUvVPEo6UXVgu-BQ5TCQ"
+google_api_key: "AIzaSyDRAblBOS0djWXbUvVPEo6UXVgu-BQ5TCQ"
 
 # Build settings
 markdown: kramdown
