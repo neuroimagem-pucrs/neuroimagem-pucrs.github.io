@@ -16,6 +16,9 @@ body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 @import 'equipe.css';
+.ze {
+    background-image: url("https://image.flaticon.com/icons/png/128/181/181549.png");
+}
 .text-vertical-center {
     display: table-cell;
     text-align: center;
