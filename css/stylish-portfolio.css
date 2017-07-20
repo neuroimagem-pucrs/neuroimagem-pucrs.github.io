@@ -15,7 +15,7 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
-
+@import 'equipe.css';
 .text-vertical-center {
     display: table-cell;
     text-align: center;
