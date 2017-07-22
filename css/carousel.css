@@ -67,13 +67,9 @@
 }
 
 .carousel .item {
+    display: table;
     position: relative;
-    width: 50%;
-}
-.carousel:before {
-content: "";
-    display: block;
-    padding-top: 100%;  
+
 }
 
 .title {
