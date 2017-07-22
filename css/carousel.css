@@ -65,7 +65,8 @@
     z-index: -99;
 }
 .carousel .item {
-    position: fixed;
+    display: table;
+    position: relative;
     width: 100%;
     height: 100%;
 }
