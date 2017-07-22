@@ -41,7 +41,3 @@ body {
     -moz-transition: opacity .55s ease-in-out;
     -webkit-transition: opacity .55s ease-in-out;
 }
-
-footer {
-    margin: 50px 0;
-}
