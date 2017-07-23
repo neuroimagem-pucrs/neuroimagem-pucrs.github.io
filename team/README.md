@@ -1,1 +1,4 @@
-Round shape crop image: http://www.guidingtech.com/15486/give-image-round-shape-using-word-paint/
+Editor online: https://pixlr.com/editor/
+
+
+Vídeo tutorial: http://inscer.wikispaces.com/file/view/tutorial_cop.mp4
