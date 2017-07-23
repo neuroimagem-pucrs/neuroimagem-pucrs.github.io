@@ -9,7 +9,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
 # User setting
-owner: Laboratório de Imagens -LABIMA
+owner: Laboratório de Imagens - LABIMA
 email:
 facebook_username: Neuroimagem-da-Cognição-Humana-134547950058577
 twitter_username:
