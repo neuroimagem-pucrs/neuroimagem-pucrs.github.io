@@ -1,3 +1,6 @@
+.noface {
+    background: url(../team/noface.png) no-repeat;
+}
 .ze {
     background: url(../team/ze.png) no-repeat;
 }
