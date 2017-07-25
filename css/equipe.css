@@ -1,10 +1,13 @@
 .noface {
     background: url(../team/noface.png) no-repeat;
+     background-position: center;
 }
 .ze {
     background: url(../team/ze.png) no-repeat;
+     background-position: center;
 }
 .alexandre {
     background: url(../team/alexandre.png) no-repeat;
+     background-position: center;
 }
 
