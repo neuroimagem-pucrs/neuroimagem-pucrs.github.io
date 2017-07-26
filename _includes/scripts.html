@@ -82,7 +82,12 @@ $(document).ready(function() {
 </script>
 
 <script> 
-    $(function(){
-      $("#teste").load("team/ze.html"); 
+script>
+  $(function(){
+    var includes = $('[data-include]');
+    jQuery.each(includes, function(){
+      var file = 'team/' + $(this).data('include') + '.html';
+      $(this).load(file);
     });
-    </script> 
+  });
+</script>
