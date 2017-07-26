@@ -1,27 +1,7 @@
 <!-- Team names and photos -->
 <section id="services" class="services bg-primary">
-<!-- ########## Pop-up de todos ################### 
-<div w3-include-html="team/popup.html"></div> -->
-	<!-- Modal Contents -->
-<div id="popup" class="modal fade "> <!-- class modal and fade -->
-
-<div class="modal-dialog modal-lg">
-    <div class="modal-content">
-
- <div class="modal-body"> <!-- modal body -->
-
- </div>
-
- <div class="modal-footer"> <!-- modal footer -->
-   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-   <button type="button" class="btn btn-primary">See CV</button>
- </div>
-
-  </div> <!-- / .modal-content -->
-
-</div> <!-- / .modal-dialog -->
-
-</div><!-- / .modal -->
+<!-- ########## Pop-up de todos ################### --> 
+<div w3-include-html="team/popup.html"></div>
 <div class="container">
 	<div class="row text-center">
 		<div class="col-lg-10 col-lg-offset-1">
@@ -83,7 +63,20 @@
 				<div class="swiper-container mySwiper2">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-							<div w3-include-html="team/ze.html"></div>
+							<!--<div w3-include-html="team/ze.html"></div>-->
+							<span class="fa-stack fa-4x ze">
+							<i class="fa fa-stack-1x text-primary"></i>
+							</span>
+							<h4>
+							    <strong>José O. A. Filho</strong>
+							</h4>
+							<p>
+							    M.S Student<br />
+							    Electrical Engineering<br />
+							    PPGEE - PUCRS
+							</p>
+							<!-- Launch Modal -->
+							<a class="btn btn-light openModal" data-toggle="modal" data-href="/team/ze_popup.html">See More</a>
 						</div>
 						<div class="swiper-slide">
 							<div w3-include-html="team/nathalia.html"></div>
