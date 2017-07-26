@@ -19,8 +19,8 @@ $(document).ready(function() {
         // Fill modal with content from link href
         $(".openModal").on("click", function(e) {
             var link = $(this).data("href");
-        $('#nathalia-info').modal("show");
-        $('#nathalia-info .modal-body').load(link );
+        $('#popup').modal("show");
+        $('#popup .modal-body').load(link );
 
         });
     })
