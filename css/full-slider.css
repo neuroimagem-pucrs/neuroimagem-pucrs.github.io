@@ -50,11 +50,11 @@ body {
         text-align: center;
         font-size: 18px;
         width: 60%;
-        /* Center slide text vertically */
+        /* Center slide text vertically 
         display: -webkit-box;
         display: -ms-flexbox;
         display: -webkit-flex;
-        display: flex;
+        display: flex;*/
         -webkit-box-pack: center;
         -ms-flex-pack: center;
         -webkit-justify-content: center;
