@@ -1,5 +1,8 @@
-$('.openBtn').on('click',function(){
-    $('.modal-body').load('content.html',function(){
-        $('#myModal').modal({show:true});
-    });
+$(document).ready(function(){
+    $('.openPopup').on('click',function(){
+        var dataURL = $(this).attr('data-href');
+        $('.modal-body').load(dataURL,function(){
+            $('#myModal').modal({show:true});
+        });
+    }); 
 });
