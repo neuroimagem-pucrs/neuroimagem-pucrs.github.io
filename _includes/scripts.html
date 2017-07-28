@@ -31,9 +31,6 @@ $(document).ready(function() {
 
 <!-- Initialize Swiper -->
 <script>
-    $(window).resize(function(){
-        swiper3.reInit() // or mySwiper.resizeFix()
-});
     var swiper1 = new Swiper('.swiper1', {        
         slidesPerView: 4,
         paginationClickable: true,
@@ -41,7 +38,7 @@ $(document).ready(function() {
         nextButton: '.swiper-button-next1',
         prevButton: '.swiper-button-prev1',
         freeMode: true,
-        autoHeight:true,
+        //autoHeight:true,
      });
     var swiper2 = new Swiper('.swiper2', {
         slidesPerView: 4,
@@ -58,10 +55,11 @@ $(document).ready(function() {
         slidesPerColumn: 2,
         paginationClickable: true,
         spaceBetween: 20,
+        direction: 'vertical'
         nextButton: '.swiper-button-next3',
         prevButton: '.swiper-button-prev3',
         freeMode: true,
-        //autoHeight:true,
+        autoHeight:true,
     });
 </script>
 
