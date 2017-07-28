@@ -20,16 +20,13 @@
     }
     .swiper-container {
         width: 100%;
-        height: auto;
-        margin-left: auto;
-        margin-right: auto;
+        height: 300px;
+        margin: 20px 0;
     }
     .swiper-slide {
         text-align: center;
         font-size: 18px;
         background: #fff;
-        height: 200px;
-        
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
@@ -47,6 +44,24 @@
     </style>
 </head>
 <body>
+    <!-- Swiper -->
+    <div class="swiper-container swiper1">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+            <div class="swiper-slide">Slide 4</div>
+            <div class="swiper-slide">Slide 5</div>
+            <div class="swiper-slide">Slide 6</div>
+            <div class="swiper-slide">Slide 7</div>
+            <div class="swiper-slide">Slide 8</div>
+            <div class="swiper-slide">Slide 9</div>
+            <div class="swiper-slide">Slide 10</div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination1"></div>
+    </div>
+
     <!-- Swiper -->
     <div class="swiper-container swiper2">
         <div class="swiper-wrapper">
@@ -84,7 +99,7 @@
     </div>
 
     <!-- Swiper JS -->
-    <script src="../dist/js/swiper.min.js"></script>
+    <script src="js/swiper.min.js"></script>
 
     <!-- Initialize Swiper -->
     <script>
