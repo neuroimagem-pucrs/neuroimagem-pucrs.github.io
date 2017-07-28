@@ -255,7 +255,7 @@ div.paleBlueRows {
 }
 .divTable.paleBlueRows .divTableCell, .divTable.paleBlueRows .divTableHead {
   border: 1px solid #FFFFFF;
-  padding: 5px 5px 0px 5px;
+  padding: 5px 5px 5px 5px;
 }
 .divTable.paleBlueRows .divTableBody .divTableCell {
   font-size: 13px;
