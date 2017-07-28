@@ -252,11 +252,10 @@ div.paleBlueRows {
   height: 100%;
   text-align: left;
   border-collapse: collapse;
-  padding:2px;
 }
 .divTable.paleBlueRows .divTableCell, .divTable.paleBlueRows .divTableHead {
   border: 1px solid #FFFFFF;
-  padding: 3px 2px;
+  padding: 5px 5px 0px 5px;
 }
 .divTable.paleBlueRows .divTableBody .divTableCell {
   font-size: 13px;
