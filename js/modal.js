@@ -1,9 +1,17 @@
-$('a.modalButton').on('click', function(e) {
-    var src = $(this).attr('data-src');
-    var height = $(this).attr('data-height') || 300;
-    var width = $(this).attr('data-width') || 400;
-    
-    $("#myModal iframe").attr({'src':src,
-                        'height': height,
-                        'width': width});
+$(document).ready(function() {
+	
+// Support for AJAX loaded modal window.
+// Focuses on first input textbox after it loads the window.
+$('[data-toggle="modal"]').click(function(e) {
+	e.preventDefault();
+	var url = $(this).attr('href');
+	if (url.indexOf('#') == 0) {
+		$(url).modal('open');
+	} else {
+		$.get(url, function(data) {
+			$('<div class="modal hide fade">' + data + '</div>').modal();
+		}).success(function() { $('input:text:visible:first').focus(); });
+	}
+});
+	
 });
