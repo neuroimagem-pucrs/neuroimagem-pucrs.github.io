@@ -1,5 +1,8 @@
-$(document).on('hidden.bs.modal', function (e) {
-    var target = $(e.target);
-    target.removeData('bs.modal')
-    .find(".modal-body").html('');
+$('[data-load-remote]').on('click',function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var remote = $this.data('load-remote');
+    if(remote) {
+        $($this.data('remote-target')).load(remote);
+    }
 });
