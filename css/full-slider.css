@@ -13,7 +13,10 @@ body {
 .item,
 .active {
     height: 100%;
+    
 }
+
+.item2{margin:10px;}
 
 .carousel-inner {
     height: 100%;
