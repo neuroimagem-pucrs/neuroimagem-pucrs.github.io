@@ -3,7 +3,7 @@
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
-
+<script src="js/csi.min.js" ></script>
 <!-- Bootstrap Core JavaScript -->
 <script src="js/bootstrap.min.js"></script>
 
@@ -76,14 +76,4 @@ $(document).ready(function() {
             ]
         });
 
-</script>
-<script>
-    $(document).ready(function() {
-        // Fill modal with content from link href
-        $(".openModal").on("click", function(e) {
-            var link = $(this).data("href");
-        $('#popup').modal("show");
-        $('#popup .modal-body').load(link );
-        });
-    })
 </script>
