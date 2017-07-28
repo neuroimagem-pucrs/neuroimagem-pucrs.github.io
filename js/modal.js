@@ -1,8 +1,5 @@
-$(document).ready(function() {
-        // Fill modal with content from link href
-        $(".openModal").on("click", function(e) {
-            var link = $(this).data("href");
-        $('#popup').modal("show");
-        $('#popup .modal-body').load(link );
-        });
-    })
+$(document).on('hidden.bs.modal', function (e) {
+    var target = $(e.target);
+    target.removeData('bs.modal')
+    .find(".modal-body").html('');
+});
