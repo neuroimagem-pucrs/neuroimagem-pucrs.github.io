@@ -276,8 +276,18 @@ div.paleBlueRows {
 .divTableFoot { display: table-footer-group;}
 .divTableBody { display: table-row-group;}
 
-.slick-slide {
-  text-align: center;
-  color: #419be0;
-  background: white;
+.white-popup {
+  position: relative;
+  background: #FFF;
+  padding: 20px;
+  width: auto;
+  max-width: 460px;
+  margin: 0 auto;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: auto;
+    padding: 0 10px;
+    margin-bottom: 15px;
 }
