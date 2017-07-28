@@ -275,3 +275,9 @@ div.paleBlueRows {
 .divTableHeading { display: table-header-group;}
 .divTableFoot { display: table-footer-group;}
 .divTableBody { display: table-row-group;}
+
+.slick-slide {
+  text-align: center;
+  color: #419be0;
+  background: white;
+}
