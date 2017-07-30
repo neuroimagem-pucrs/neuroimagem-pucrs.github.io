@@ -10,8 +10,10 @@ $('#myModal').on('show.bs.modal', function () {
        });
 });*/
 
-
-$("#myModal").on("show.bs.modal", function(e) {
-    var link = $(e.relatedTarget);
-    $(this).find(".modal-body").load(link.attr("href"));
+$(document).ready(function() {
+    $('.btn-default').click(function() {
+        $('#myModal .modal-body').load($(this).data('href'), function(e) {
+            $('#myModal').modal('show')
+        });
+    });
 });
