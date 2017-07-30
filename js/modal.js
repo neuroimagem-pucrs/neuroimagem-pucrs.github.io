@@ -1,10 +1,5 @@
-	$(function() {
-        $("a.pop").click(function(){
-          var pageTitle = $(this).attr('pageTitle');
-          var pageName = $(this).attr('pageName');
-          $(".modal .modal-title").html(pageTitle);
-          $(".modal .modal-body").html("Content loading please wait...");
-          $(".modal").modal("show");
-          $(".modal .modal-body").load(pageName);
-        });
-	});	
+// Fill modal with content from link href
+$("#myModal").on("show.bs.modal", function(e) {
+    var link = $(e.relatedTarget);
+    $(this).find(".modal-body").load(link.attr("href"));
+});
