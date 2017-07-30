@@ -1,4 +1,3 @@
-<script>
 	$(function() {
         $(".pop").click(function(){
           var pageTitle = $(this).attr('pageTitle');
@@ -9,4 +8,3 @@
           $(".modal .modal-body").load(pageName);
         });
 	});	
-</script>
