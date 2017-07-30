@@ -1,4 +1,3 @@
-// Make sure the DOM elements are loaded and accounted for
 $(document).ready(function() {
 
   // Match to Bootstraps data-toggle for the modal
@@ -10,7 +9,7 @@ $(document).ready(function() {
     var target_modal = $(e.currentTarget).data('target');
     // also get the remote content's URL
     var remote_content = e.currentTarget.href;
-
+    
     // Find the target modal in the DOM
     var modal = $(target_modal);
     // Find the modal's <div class="modal-body"> so we can populate it
@@ -28,5 +27,6 @@ $(document).ready(function() {
     // Now return a false (negating the link action) to prevent Bootstrap's JS 3.1.1
     // from throwing a 'preventDefault' error due to us overriding the anchor usage.
     return false;
-  });
-});
+    });
+    
+  }); // close off document ready
