@@ -15,7 +15,7 @@ $(document).ready(function() {
         $('#myModal .modal-body').load($(this).data('href'), function(e) {
             $('#myModal').modal('show')
         });
-      $('#myModal').on('hidden.bs.modal', function () {
+      $('#myModal').on('hidden.bs.modal', function (e) {
     $(this).find("input,textarea,select").val('').end();
 
 });
