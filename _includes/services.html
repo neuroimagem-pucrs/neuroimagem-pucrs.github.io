@@ -1,5 +1,11 @@
 <!-- Team names and photos -->
 <script src="js/modal.js" ></script>
+<script type="text/javascript">
+  window.onload = function() {
+    // Turns the iframe into a seamless iframe.
+    window.seamless(document.getElementById('myiframe'));
+  };
+</script>
 <div data-include="popup.html"></div>
 <section id="services" class="services bg-primary">
 <!-- ########## Pop-up de todos ################### -->
@@ -11,7 +17,7 @@
         <hr class="small">         
         <div class="slider slider1">
             <div class="item2">{% include /team/alexandre.html %}</div> 
-            <div class="item2">{% include /team/ze.html %}</div> 
+            <div class="item2"><iframe id="myiframe" src="team/ze.html"></iframe></div> 
             <div class="item2">{% include team/noface.html %}</div> 
             <div class="item2">{% include team/noface.html %}</div> 
             <div class="item2">{% include team/noface.html %}</div> 
