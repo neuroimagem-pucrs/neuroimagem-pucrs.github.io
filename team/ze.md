@@ -1,5 +1,5 @@
 ---
-layout:team
+layout: team
 title: Ze
 permalink: /ze/
 ---
