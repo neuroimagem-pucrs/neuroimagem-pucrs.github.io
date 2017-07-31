@@ -1,5 +1,5 @@
 .noface {
-    background: url(../team/noface.png) no-repeat;
+    background: url({{ "/team/noface.png" | prepend: site.baseurl }}) no-repeat;
      background-position: center;
 }
 
