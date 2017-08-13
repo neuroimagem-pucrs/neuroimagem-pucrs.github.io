@@ -9,16 +9,11 @@ $('#myModal').on('show.bs.modal', function () {
               'max-height':'100%'
        });
 });*/
-
-$(document).ready(function() {
-    $('.btn-default').click(function() {
-        $('#myModal .modal-body').load($(this).data('href'), function(e) {
-            $('#myModal').modal('show')
-        });
-      $('#myModal').on('hidden.bs.modal', function (e) {
-    $(this).find("input,textarea,select").val('').end();
-
-});
-    });
-  
+$('[data-load-remote]').on('click',function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var remote = $this.data('load-remote');
+    if(remote) {
+        $($this.data('remote-target')).load(remote);
+    }
 });
