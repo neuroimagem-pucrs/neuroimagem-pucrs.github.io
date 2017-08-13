@@ -28,5 +28,5 @@ $modal.on('show.bs.modal', function(e) {
       //$('body').removeClass('modal-open');
       
     });
-  $('.modal-backdrop').remove();
+  //$('.modal-backdrop').remove();
 });
