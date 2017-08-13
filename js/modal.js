@@ -23,9 +23,9 @@ $modal.on('show.bs.modal', function(e) {
       // Use Bootstrap's built-in function to fix scrolling (to no avail)
       $modal
         .removeClass('modal-scrollfix')
-        .modal('handleUpdate')
+        //.modal('handleUpdate')
         .modal('hide');
       $('body').removeClass('modal-open');
-      $('.modal-backdrop').remove();
+      //$('.modal-backdrop').remove();
     });
 });
