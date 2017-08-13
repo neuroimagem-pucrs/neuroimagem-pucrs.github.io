@@ -9,18 +9,20 @@ $('#myModal').on('show.bs.modal', function () {
               'max-height':'100%'
        });
 });*/
-    $('a[data-toggle="modal"]').on('click', function(){
-        // update modal header with contents of button that invoked the modal
-        $('#myModalLabel').html( $(this).html() );
-        //fixes a bootstrap bug that prevents a modal from being reused
-        $('#utility_body').load(
-            $(this).attr('href'),
-            function(response, status, xhr) {
-                if (status === 'error') {
-                    //console.log('got here');
-                    $('#utility_body').html('<h2>Oh boy</h2><p>Sorry, but there was an error:' + xhr.status + ' ' + xhr.statusText+ '</p>');
-                }
-                return this;
-            }
-        );
+var $modal = $('.modal');
+
+// Show loader & then get content when modal is shown
+$modal.on('show.bs.modal', function(e) {
+  var paragraphs = $(e.relatedTarget).data('paragraphs');
+
+  $(this)
+    .addClass('modal-scrollfix')
+    .find('.modal-body')
+    .html('loading...')
+    .load('https://neuroimagem-pucrs.github.io/team/' + paragraphs, function() {
+      // Use Bootstrap's built-in function to fix scrolling (to no avail)
+      $modal
+        .removeClass('modal-scrollfix')
+        .modal('handleUpdate');
     });
+});
