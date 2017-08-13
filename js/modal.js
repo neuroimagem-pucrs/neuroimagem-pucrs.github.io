@@ -25,7 +25,7 @@ $modal.on('show.bs.modal', function(e) {
         .removeClass('modal-scrollfix')
         .modal('handleUpdate')
         //.modal('hide');
-      $('body').removeClass('modal-open');
+      //$('body').removeClass('modal-open');
       
     });
   $('.modal-backdrop').remove();
