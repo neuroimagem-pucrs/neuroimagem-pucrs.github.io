@@ -22,9 +22,9 @@ $modal.on('show.bs.modal', function(e) {
     .load('https://neuroimagem-pucrs.github.io/team/' + paragraphs, function() {
       // Use Bootstrap's built-in function to fix scrolling (to no avail)
       $modal
-        //.removeClass('modal-scrollfix')
+        .removeClass('modal-scrollfix')
         .modal('handleUpdate')
-        //.modal('hide');
+        .modal('hide');
       $('body').removeClass('modal-open');
       
     });
