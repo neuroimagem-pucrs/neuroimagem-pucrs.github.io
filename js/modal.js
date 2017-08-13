@@ -21,8 +21,10 @@ $modal.on('show.bs.modal', function(e) {
     .html('loading...')
     .load('https://neuroimagem-pucrs.github.io/team/' + paragraphs, function() {
       // Use Bootstrap's built-in function to fix scrolling (to no avail)
-      //$modal
-      //  .removeClass('modal-scrollfix')
-       // .modal('handleUpdate');
+      $modal
+        .removeClass('modal-scrollfix')
+        .modal('handleUpdate');
+$('body').removeClass('modal-open');
+$('.modal-backdrop').remove();
     });
 });
