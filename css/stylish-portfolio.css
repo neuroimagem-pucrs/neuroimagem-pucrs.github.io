@@ -295,7 +295,12 @@ div.paleBlueRows {
     max-height: 300px;
     overflow-y: scroll;
 }
-.modal {
- overflow-y:scroll;
+
+body.modal-open-noscroll {
+  margin-right: 0!important;
+  overflow: hidden;
+}
+.modal-open-noscroll .navbar-fixed-top, .modal-open .navbar-fixed-bottom {
+  margin-right: 0!important;
 }
 
