@@ -29,5 +29,5 @@ $modal.on('show.bs.modal', function(e) {
     });
 });
 $modal.on('hidden.bs.modal', function(e) {
-  $("body").addClass("modal-open")
+  $("body").removeClass("modal-open")
 });
