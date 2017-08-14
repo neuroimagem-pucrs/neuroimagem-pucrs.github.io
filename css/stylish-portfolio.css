@@ -299,6 +299,4 @@ div.paleBlueRows {
  overflow-y: auto;
 }
 
-.modal-open {
- overflow: auto;
-}
+.modal-open { overflow: auto; padding-right: 0px !important; }
