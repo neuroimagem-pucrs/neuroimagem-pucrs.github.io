@@ -297,5 +297,10 @@ div.paleBlueRows {
 }
 body.modal-open {
     overflow: hidden;
+    overflow-y:  hidden;
+}
+modal-open {
+    overflow: hidden;
+    overflow-y:  hidden;
 }
 
