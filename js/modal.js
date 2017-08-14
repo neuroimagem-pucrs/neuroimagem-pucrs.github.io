@@ -16,13 +16,13 @@ $modal.on('show.bs.modal', function(e) {
   var paragraphs = $(e.relatedTarget).data('paragraphs');
 
   $(this)
-    .addClass('modal-scrollfix')
+    //.addClass('modal-scrollfix')
     .find('.modal-body')
     .html('loading...')
     .load('https://neuroimagem-pucrs.github.io/team/' + paragraphs, function() {
       // Use Bootstrap's built-in function to fix scrolling (to no avail)
       $modal
-        .removeClass('modal-scrollfix')
-        .modal('handleUpdate');      
+        //.removeClass('modal-scrollfix')
+        //.modal('handleUpdate');      
     });
 });
