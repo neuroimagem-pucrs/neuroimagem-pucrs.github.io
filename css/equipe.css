@@ -61,7 +61,6 @@
 .meneguzzi {
     background: url(../team/meneguzzi.png) no-repeat;
     background-position: center;
-    width: 102px;
-    height: 102px;
+
     border-radius: 50%;
 }
