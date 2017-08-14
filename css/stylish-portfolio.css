@@ -295,3 +295,10 @@ div.paleBlueRows {
     max-height: 300px;
     overflow-y: scroll;
 }
+.modal {
+ overflow-y: auto;
+}
+
+.modal-open {
+ overflow: auto;
+}
