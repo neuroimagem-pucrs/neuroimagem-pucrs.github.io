@@ -12,7 +12,7 @@ $('#myModal').on('show.bs.modal', function () {
 var $modal = $('.modal');
 
 // Show loader & then get content when modal is shown
-$modal.on('hidden.bs.modal', function(e) {
+$modal.on('show.bs.modal', function(e) {
   var paragraphs = $(e.relatedTarget).data('paragraphs');
 
   $(this)
