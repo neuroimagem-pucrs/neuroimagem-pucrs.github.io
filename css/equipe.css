@@ -1,60 +1,67 @@
 .noface {
     background: url(../team/noface.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 
 .ze {
     background: url(../team/ze.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 
 .alexandre {
     background: url(../team/alexandre.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 
 .augusto {
     background: url(../team/augusto.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 
 .nathalia {
     background: url(../team/nathalia.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 
 .milton {
     background: url(../team/milton.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 
 .mariana {
     background: url(../team/mariana.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 
 .bruno {
     background: url(../team/bruno.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 
 .luis {
     background: url(../team/luis.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 .aline {
     background: url(../team/aline.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 .gustavo {
     background: url(../team/gustavo.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 .lucas {
     background: url(../team/lucas.png) no-repeat;
-     background-position: center;
+    background-position: center;
 }
 .wyllians {
     background: url(../team/wyllians.png) no-repeat;
-     background-position: center;
+    background-position: center;
+}
+.meneguzzi {
+    background: url(../team/meneguzzi.png) no-repeat;
+    background-position: center;
+    width: 102px;
+    height: 102px;
+    border-radius: 50%;
 }
