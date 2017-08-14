@@ -13,6 +13,7 @@ var $modal = $('.modal');
 
 // Show loader & then get content when modal is shown
 $modal.on('show.bs.modal', function(e) {
+   $("body").addClass("modal-open");
   var paragraphs = $(e.relatedTarget).data('paragraphs');
   
   $(this)
@@ -24,6 +25,9 @@ $modal.on('show.bs.modal', function(e) {
       //$modal
         //.removeClass('modal-scrollfix')
         //.modal('handleUpdate');  
-    $("body").addClass("modal-open");
+   
     });
+});
+$modal.on('hidden.bs.modal', function(e) {
+  $("body").removeClass("modal-open")
 });
