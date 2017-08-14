@@ -65,3 +65,7 @@
     height: 102px;
     border-radius: 50%;
 }
+.breno {
+    background: url(../team/breno.png) no-repeat;
+    background-position: center;
+}
