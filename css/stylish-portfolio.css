@@ -296,7 +296,6 @@ div.paleBlueRows {
     overflow-y: scroll;
 }
 .modal {
- overflow-y: auto;
+ overflow-y:scroll;
 }
 
-.modal-open { overflow: auto; padding-right: 0px !important; }
