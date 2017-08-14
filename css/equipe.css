@@ -59,8 +59,9 @@
     background-position: center;
 }
 .meneguzzi {
-    background: url(../team/meneguzzi.png) no-repeat;
+    background: url(../team/meneguzzi.jpg) no-repeat;
     background-position: center;
-
+    width: 102px;
+    height: 102px;
     border-radius: 50%;
 }
