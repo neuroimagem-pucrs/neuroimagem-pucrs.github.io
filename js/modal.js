@@ -13,7 +13,7 @@ var $modal = $('.modal');
 
 // Show loader & then get content when modal is shown
 $modal.on('show.bs.modal', function(e) {
-   $("body").addClass("modal-open");
+   $("body").removeClass("modal-open")
   var paragraphs = $(e.relatedTarget).data('paragraphs');
   
   $(this)
