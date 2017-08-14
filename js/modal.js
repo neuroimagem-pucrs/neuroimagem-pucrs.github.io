@@ -25,6 +25,5 @@ $modal.on('show.bs.modal', function(e) {
         //.removeClass('modal-scrollfix')
         //.modal('handleUpdate');    
     $('body').css('overflow','hidden');
-$('body').css('position','fixed');
     });
 });
