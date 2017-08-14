@@ -14,7 +14,7 @@ var $modal = $('.modal');
 // Show loader & then get content when modal is shown
 $modal.on('show.bs.modal', function(e) {
   var paragraphs = $(e.relatedTarget).data('paragraphs');
-
+  
   $(this)
     //.addClass('modal-scrollfix')
     .find('.modal-body')
@@ -23,6 +23,7 @@ $modal.on('show.bs.modal', function(e) {
       // Use Bootstrap's built-in function to fix scrolling (to no avail)
       //$modal
         //.removeClass('modal-scrollfix')
-        //.modal('handleUpdate');    
+        //.modal('handleUpdate');  
+    $("body").addClass("modal-open");
     });
 });
