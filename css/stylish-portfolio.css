@@ -188,7 +188,7 @@ hr.small {
     height: 400px;
     color: #fff; 
     text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000; /*edittttt aqui tb */
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/bg.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
