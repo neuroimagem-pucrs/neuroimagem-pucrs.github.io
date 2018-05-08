@@ -167,7 +167,7 @@ hr.small {
 
 .about {
     padding: 50px 0;
-    background: linear-gradient(#fff, #bdbdbd)  /*edit aqui */
+    background: linear-gradient(#fff, #bdbdbd) /*edit aqui */
 }
 
 /* Services */
@@ -188,7 +188,8 @@ hr.small {
     height: 400px;
     color: #fff; 
     text-shadow: 1px 1px 1px #000,1px 1px 1px #000; /*edittttt aqui tb */
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(../img/callout.jpg) no-repeat center center scroll, linear-gradient(#fff, #000); 
+    background-blend-mode: multiply; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
